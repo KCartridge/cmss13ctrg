@@ -464,13 +464,6 @@
 	},
 /turf/open/floor/corsat/blue,
 /area/adminlevel/ert_station/cmb_station)
-"bq" = (
-/obj/structure/sign/nosmoking_1{
-	pixel_x = -26;
-	pixel_y = 0
-	},
-/turf/open/floor/corsat/blue/west,
-/area/adminlevel/ert_station/cmb_station)
 "br" = (
 /obj/structure/machinery/disposal,
 /turf/open/floor/corsat/squares,
@@ -942,6 +935,13 @@
 	},
 /turf/open/floor/corsat/green/north,
 /area/adminlevel/ert_station/cmb_station)
+"cL" = (
+/obj/structure/machinery/door/poddoor/hybrisa/open_shutters{
+	dir = 4
+	},
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/cmb_station)
 "cM" = (
 /obj/structure/closet/medical_wall{
 	pixel_x = 0;
@@ -1207,12 +1207,62 @@
 	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/cmb_station)
+"dr" = (
+/obj/structure/machinery/door/poddoor/hybrisa/open_shutters,
+/obj/structure/window/framed/almayer,
+/turf/open/floor/plating,
+/area/adminlevel/ert_station/cmb_station)
+"ds" = (
+/obj/effect/decal/hybrisa/dirt_2,
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -26;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat/blue/west,
+/area/adminlevel/ert_station/cmb_station)
 "dt" = (
 /obj/structure/sign/safety/fire_station{
 	pixel_x = 31;
 	pixel_y = 0
 	},
 /turf/open/floor/corsat/brown/east,
+/area/adminlevel/ert_station/cmb_station)
+"du" = (
+/obj/structure/sign/poster/marshalls{
+	pixel_x = -5;
+	pixel_y = 37
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/cmb_station)
+"dv" = (
+/obj/structure/sign/prop3{
+	pixel_x = -4;
+	pixel_y = 28
+	},
+/turf/open/floor/corsat/blue/north,
+/area/adminlevel/ert_station/cmb_station)
+"dw" = (
+/obj/effect/decal/hybrisa/dirt_2,
+/obj/structure/sign/poster/propaganda{
+	pixel_x = -9;
+	pixel_y = 29
+	},
+/obj/structure/sign/poster/marshalls{
+	pixel_x = 4;
+	pixel_y = 36
+	},
+/turf/open/floor/corsat/blue/north,
+/area/adminlevel/ert_station/cmb_station)
+"dx" = (
+/obj/structure/sign/poster/corporate{
+	pixel_x = -5;
+	pixel_y = 33
+	},
+/obj/structure/sign/poster/hunk{
+	pixel_x = 5;
+	pixel_y = 38
+	},
+/turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/cmb_station)
 "dy" = (
 /obj/structure/sign/safety/bathunisex{
@@ -1995,7 +2045,7 @@
 /area/adminlevel/ert_station/cmb_station)
 "mJ" = (
 /obj/structure/machinery/vending/security{
-	products = list(/obj/item/restraint/handcuffs = 8, /obj/item/restraint/handcuffs/zip = 10, /obj/item/restraint/legcuffs = 3, /obj/item/explosive/grenade/flashbang = 4, /obj/item/weapon/gun/energy/taser = 4, /obj/item/reagent_container/spray/pepper = 4, /obj/item/reagent_container/spray/investigation = 4, /obj/item/weapon/baton = 4, /obj/item/device/flashlight = 4, /obj/item/device/flash = 5, /obj/item/reagent_container/food/snacks/donut/normal = 12, /obj/item/storage/box/evidence = 6, /obj/item/clothing/under/marine/mp = 2, /obj/item/storage/belt/security/MP = 6, /obj/item/clothing/glasses/sunglasses/sechud = 3, /obj/item/device/radio/headset = 6, /obj/item/tape/regulation = 5, /obj/item/device/taperecorder = 3, /obj/item/device/clue_scanner = 3, /obj/item/device/camera = 8, /obj/item/device/camera_film = 8);
+	products = list(/obj/item/restraint/handcuffs = 8, /obj/item/restraint/handcuffs/zip = 10, /obj/item/restraint/legcuffs = 3, /obj/item/explosive/grenade/flashbang = 4, /obj/item/weapon/gun/energy/taser = 4, /obj/item/reagent_container/spray/pepper = 4, /obj/item/reagent_container/spray/investigation = 4, /obj/item/weapon/baton = 4, /obj/item/device/flashlight = 4, /obj/item/device/flash = 5, /obj/item/reagent_container/food/snacks/donut/normal = 12, /obj/item/storage/box/evidence = 6, /obj/item/storage/belt/security/MP/CMB = 6, /obj/item/clothing/glasses/sunglasses/sechud = 3, /obj/item/tape/regulation = 5, /obj/item/device/taperecorder = 3, /obj/item/device/clue_scanner = 3, /obj/item/device/camera = 8, /obj/item/device/camera_film = 8);
 	name = "\improper CMBTech"
 	},
 /turf/open/floor/corsat/squares,
@@ -5304,7 +5354,7 @@ KJ
 KJ
 vj
 vj
-dN
+dx
 dN
 dN
 dN
@@ -5912,9 +5962,9 @@ vj
 vj
 vj
 vj
-vj
-vj
-vj
+cL
+cL
+cL
 vj
 vj
 cK
@@ -5969,9 +6019,9 @@ by
 bs
 Ki
 Ki
+ds
 bs
-bs
-bq
+Ki
 cU
 tt
 vj
@@ -6132,7 +6182,7 @@ YZ
 VO
 vj
 vj
-dN
+du
 dN
 ae
 dN
@@ -6260,7 +6310,7 @@ yk
 aZ
 PE
 xQ
-lM
+dr
 ae
 dN
 lM
@@ -6318,7 +6368,7 @@ xQ
 xQ
 xQ
 xQ
-lM
+dr
 ae
 dN
 lM
@@ -6701,7 +6751,7 @@ Dr
 aK
 YG
 vj
-Ac
+dv
 ae
 bJ
 vj
@@ -6759,7 +6809,7 @@ Dr
 aK
 YG
 vj
-bO
+dw
 ae
 qx
 vj
