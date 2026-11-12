@@ -617,6 +617,16 @@
 	desc = "A fire-resistant shoulder patch, worn by the men and women of the United Americas, An economic and political giant in both the Sol system and throughout the offworld colonies, the military might of the UA is unparalleled.."
 	icon_state = "uapatch"
 
+/obj/item/clothing/accessory/patch/cmb
+	name = "Colonial Marshal patch"
+	desc = "A fire-resistant shoulder patch, worn by the men and women of the Colonial Marshal Bureau, a peacekeeping force created for United American colonies. The laws of Earth stretch beyond Sol..."
+	icon_state = "cmbpatch"
+
+/obj/item/clothing/accessory/patch/cmb/anchorpoint
+	name = "Anchorpoint CMB patch"
+	desc = "A fire-resistant shoulder patch, worn by the men and women of the Colonial Marshal Bureau, this one bears the visage of Anchorpoint Station."
+	icon_state = "anchorpointcmbpatch"
+
 /obj/item/clothing/accessory/patch/uasquare
 	name = "United Americas patch"
 	desc = "A fire-resistant shoulder patch, worn by the men and women of the United Americas, An economic and political giant in both the Sol system and throughout the offworld colonies, the military might of the UA is unparalleled.."
