@@ -19,10 +19,10 @@
 
 /obj/structure/closet/secure_closet/cmb/deputy/Initialize()
 	. = ..()
-	new /obj/item/clothing/suit/storage/cmb(src)
+	new /obj/item/clothing/suit/storage/CMB(src)
 	new /obj/item/clothing/under/CM_uniform(src)
 	new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/belt/security/mp/cmb(src)
+	new /obj/item/storage/belt/security/MP/CMB(src)
 	new /obj/item/clothing/shoes/jackboots(src)
 
 
@@ -37,10 +37,10 @@
 
 /obj/structure/closet/secure_closet/cmb/marshal/Initialize()
 	. = ..()
-	new /obj/item/clothing/suit/storage/cmb/marshal(src)
+	new /obj/item/clothing/suit/storage/CMB/marshal(src)
 	new /obj/item/clothing/under/CM_uniform(src)
 	new /obj/item/storage/backpack/satchel/sec(src)
-	new /obj/item/storage/belt/security/mp/cmb(src)
+	new /obj/item/storage/belt/security/MP/CMB(src)
 	new /obj/item/clothing/shoes/jackboots(src)
 
 /obj/structure/closet/secure_closet/cmb/riot
@@ -54,9 +54,9 @@
 
 /obj/structure/closet/secure_closet/cmb/riot/Initialize()
 	. = ..()
-	new /obj/item/clothing/suit/storage/cmb/marshal(src)
+	new /obj/item/clothing/suit/storage/CMB/marshal(src)
 	new /obj/item/clothing/under/marine/veteran/cmb/marshal(src)
 	new /obj/item/storage/backpack/molle(src)
-	new /obj/item/clothing/head/cmb/beret/marshal
-	new /obj/item/storage/belt/security/mp/cmb(src)
+	new /obj/item/clothing/head/CMB/beret/marshal
+	new /obj/item/storage/belt/security/MP/CMB(src)
 	new /obj/item/clothing/shoes/jackboots(src)

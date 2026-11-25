@@ -464,6 +464,17 @@
 	},
 /turf/open/floor/corsat/blue,
 /area/adminlevel/ert_station/cmb_station)
+"bq" = (
+/obj/structure/closet/secure_closet/cmb/riot{
+	pixel_x = 8;
+	pixel_y = 0
+	},
+/obj/structure/closet/secure_closet/cmb/riot{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/turf/open/floor/corsat/squares,
+/area/adminlevel/ert_station/cmb_station)
 "br" = (
 /obj/structure/machinery/disposal,
 /turf/open/floor/corsat/squares,
@@ -1818,7 +1829,14 @@
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/cmb_station)
 "jP" = (
-/obj/structure/closet/secure_closet/marshal,
+/obj/structure/closet/secure_closet/cmb/deputy{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/obj/structure/closet/secure_closet/cmb/marshal{
+	pixel_x = 8;
+	pixel_y = 0
+	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/cmb_station)
 "jS" = (
@@ -2100,7 +2118,14 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/obj/structure/closet/secure_closet/marshal,
+/obj/structure/closet/secure_closet/cmb/riot{
+	pixel_x = 7;
+	pixel_y = 0
+	},
+/obj/structure/closet/secure_closet/cmb/riot{
+	pixel_x = -8;
+	pixel_y = 0
+	},
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/cmb_station)
 "no" = (
@@ -3103,10 +3128,17 @@
 /turf/open/floor/hybrisa/carpet/carpetbluedeco,
 /area/adminlevel/ert_station/cmb_station)
 "BS" = (
+/obj/structure/closet/secure_closet/cmb/deputy{
+	pixel_x = -8;
+	pixel_y = 0
+	},
+/obj/structure/closet/secure_closet/cmb/marshal{
+	pixel_x = 8;
+	pixel_y = 0
+	},
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/obj/structure/closet/secure_closet/marshal,
 /turf/open/floor/corsat/squares,
 /area/adminlevel/ert_station/cmb_station)
 "BT" = (
@@ -7360,7 +7392,7 @@ tw
 wO
 iE
 zm
-jP
+bq
 dN
 ae
 nn
